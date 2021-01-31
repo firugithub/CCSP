@@ -1,0 +1,138 @@
+** Terms 
+
+1. Cloud 
+2. Services - CLoud offers everything in the form of services. 
+3. compute (CPU + Memory)
+4. Network
+5. Storage 
+6. Pool 
+7. Scalability 
+8. Automation 
+9. orchestration 
+10. Abstraction - all the layer managed by AWS is hidden to the end user. 
+11. CapEx - capital Expenditure 
+12. OpEx - Operational Expenditure. 
+13. Agility - Ability to support with the change in busienss requirements. 
+              things can be done instantly with new reqs. 
+              In onprem, it will take ages to get the server after lot of approvals.              
+14. TCO - Total cost of ownership. 
+
+TCO - Total cost of ownership. 
+TCO Cost calculator of Azure Example. 
+
+15. IMporved resource utilization - in onprem, 99% of time 30% resources are used and rest not. 
+                                  - in cloud you will have improved. 
+16. Customer - Controlled Migration - CLoud gives lot of options to migrate. 
+17. Resilience - what matters to me is the quality service. 
+    BC - Business Continuity - ability to continue business even in diaster is BC
+    DR - Disaster Recovery - Complete process to bringing to Operation is DR. 
+18. Pay for use - Pay for what you use. 
+
+**drawbacks/risk
+19. multi tenancy 
+   eg:- to mitigate multi tenancy   
+       a. access control 
+       b. ecryption 
+      Note:- even if you have dedicated derver in cloud, network, storage , administrator are same. 
+20. third party admnistration - csp is administering. 
+
+**NIST (if you want to say something as cloud, below features should be there)
+21. Ondemand self service - no need of approvals from cloud provider to create the server in cloud. 
+                            you have a self service portal 
+22. Broader Network access - access anywhere from any device. 
+23. Resource pooling - grouping all resource into 1 , these pools are scalable. 
+24. rapid elasticity - flexibilty in creating and removing things 
+                feature of elasticity is scalability 
+                     - when requirement increases, we can increase or decrease the size 
+            Note:- scalability is there because we have elasticity and
+                   elasticity is there because we have virtualization                             
+25. measured service - metered service , without this cloud computing is not economical. 
+
+
+**disadvatange with above.
+
+21. Ondemand Self Service disadvantage 
+       - it can be disadvantage or least important 
+       - Each and every person can create from anywhere and it may miss Approval Process. 
+       - might lead to compliance issues. People can implement anything without proper approval. 
+
+       to mitigate this is you need to enforce policies, access control, iam and need to be done from authorized devices and authorized controls. 
+
+22. Broader Network access 
+        - Can Access anywhere any corner of globe. if you allow customer data to be accessable anywhere it can lead in trouble and compliance issues not all devices have same security. 
+        - data locations can complicate things. 
+        - access from non standard devices can lead to issues. 
+
+23. Resource pooling 
+        - while pooling is cost effective but its multi-tenancy. 
+
+24. Rapid elasticity 
+        - while increase and decrease is possible , it will makes things during audit & assessment 
+25. Multi tenancy risks 
+        - shared resource, cross connections are possible. 
+        - attacker may damage common compute performance. 
+
+------------ 
+
+22. Risk 
+     - Positive - you are risking though benifits more. 
+     - Negative - more risk less benifits 
+
+------------ 
+
+23. Risk cannot be shared to cloud 
+   a. Data Security 
+   b. GRC - governancne, Risk & COmpliance. 
+   c. Reputation 
+
+---------- 
+
+27. Before going to CLoud 
+  a. Shared Reponisbilty Model - Understand Demarcation b.w the CSP and customer. 
+  b. Ensure that CSP has Proper Operational VIsibilty and COntrol, 
+  c. ENsure that the CSP is compliant with any legal and regulatory requiremetns. 
+  d. ENsure CSP has proper governance process and procedure with hose of the enterprise 
+  e. see the availablity check from CSP the differene b.w 99.9% and 99.99% 
+     https://en.wikipedia.org/wiki/High_availability#:~:text=High%20availability%20(HA)%20is%20a,increased%20reliance%20on%20these%20systems 
+
+28. Ephemeral - temporary 
+     AWS = instance store 
+     Azure = temporary disk. 
+
+
+
+-------- 
+
+29. Cryptographic shredding or cryptographic erasure - this is to ensure that data is deleted on the CSP Permanently. 
+
+30. Global infrastructure 
+    
+    - Regions - Geographic region from where cloud operates  
+    - AZ - inside regions , csp has more zones 
+         - zone is something where they service customer 
+         - each AZ - 1 or more DC 
+    - DC - individually DC that has physical vm's 
+
+
+    Azure 
+      - LRS (when the data is copied the data is copied to same zone in multiple places) 
+      - GRS - replicate the data to different zone. 
+
+31. Contract & SLA - Minimum Gaurenteed Resources , 
+the only way to ensure that things are guarenteed, then it is as per Contract & SLA 
+
+32. CAIQ - Cloud Assessment initiative Questionaire 
+https://cloudsecurityalliance.org/artifacts/consensus-assessments-initiative-questionnaire-v3-1/
+
+https://d0.awsstatic.com/whitepapers/compliance/CSA_Consensus_Assessments_Initiative_Questionnaire.pdf
+
+AWS Artifacts - compliance and audit reports and agreements. some reports, you need to get NDA. 
+Azure - https://azure.microsoft.com/en-us/resources/microsoft-azure-responses-to-cloud-security-alliance-consensus-assessments-initiative-questionnaire-v301/
+
+
+
+
+
+
+
+
