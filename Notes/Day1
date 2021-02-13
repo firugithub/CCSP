@@ -103,6 +103,16 @@ TCO Cost calculator of Azure Example.
 
 -------- 
 
+ELASTICITY - ON DEMAND 
+ - scalable and Cost effective 
+
+------- 
+
+With Migration to CLoud you can only minimize risks but not eliminate risks. 
+
+-------
+
+
 29. Cryptographic shredding or cryptographic erasure - this is to ensure that data is deleted on the CSP Permanently. 
 
 30. Global infrastructure 
@@ -128,6 +138,73 @@ https://d0.awsstatic.com/whitepapers/compliance/CSA_Consensus_Assessments_Initia
 
 AWS Artifacts - compliance and audit reports and agreements. some reports, you need to get NDA. 
 Azure - https://azure.microsoft.com/en-us/resources/microsoft-azure-responses-to-cloud-security-alliance-consensus-assessments-initiative-questionnaire-v301/
+
+---
+
+ISO 17789 - CLoud Standards and roles 
+
+   4 layers for the cloud computing 
+     Resource Layer (Provider or Datacenter layer)
+        - Resource Abstraction & Control
+        - Physical Resources 
+     Service Layer (services offered by cloud)
+        - Service Capabilities 
+        - Business capabilities 
+        - Administration Capabilities 
+        - Service Orchestration. 
+     Access layer (CLI,SDK,Portal)
+        - Access Control 
+        - Connection Management. 
+     User Layer (User activity etc)
+        - User Function 
+        - Business Function 
+        - Administrator Function. 
+
+Job role 
+    a. CSP (CLoud Service Provider) - they have technology they Provide Services (Data Custodian)
+    b. CSC (CLoud Service Consumer/Customer) - Principal stakeholder that use computing services. 
+    c. CS Partner (Cloud Service Partner) - they help in support of serices of cloud. 
+     - CA (Cloud Auditor) - Party which performs indepent examination based on certain Standards. 
+     - CB (CLoud Broker) - doesnt provide cloud service, cloud broker solutuions offer centralized inerface for 
+                         multi clud acounts and manage to make this more effective. 
+       Eg:- Dell Bhoomi 
+       eg:- appirio 
+       eg:- amazon.com.bluewolf  
+    d. MSP - Managed services offer proffessional services.
+    e. Cloud Resller -  i am taking service from somone wholesale and giving it to someone for the service. 
+    In this case the ownership lies with the reseller. 
+      eg:- Drop box 
+            AWS --> Dropbox --> Customer 
+    f. cloud backup service provider - you want to have a provider to store the backups. 
+      eg:- VMWare , example you have cloud and vmware can help you copy of your data in a backup site. 
+    g. Cloud carrier -> internet ISP is  cloud carier, deliver the cloud service to you. 
+            which carries things. 
+
+
+Offerings 
+  a. IAAS - Infrastructure as a service 
+  b. PAAS - Platform as a service 
+  c. SAAS - Software as a service. 
+
+Securing IAAS 
+   - Data Protection 
+   - Secure Data Deletion 
+   - VM Migration 
+   - Virtualization Best Practices 
+
+-------
+Crypto Shredding or cryptographic erasure. 
+
+Encryption 
+  - Dta 
+  - Encrytpion engine 
+  - Encryption key file which is important 
+
+Encryption of Storage S3 --> encrypt using your key file and --> encrypt key file with anathor key 
+in cryptoshredding , th encryption key files are deleted. 
+
+--------
+
 
 
 

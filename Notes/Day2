@@ -1,0 +1,100 @@
+** Day2 Notes 
+
+4types of Deployment Models. 
+
+ Public - Available to general public over internet.  Not designed for anyone specific. Pay as you go model. 
+        Challenge - public itself, Multi-tenancy, 3rd Party Administration. 
+        benifit - cost 
+        risk - multi-tenancy. 
+        Eg:- Google Drive problems 
+                - location problems(No Selection). 
+                - Not much Security options. 
+
+ Private - Exclusive use by a single org 
+        OnPrem Private Cloud  - when your datacenter is having all NIST Standard requirements of Cloud Copmuting thn its onprem private cloud 
+                    ondemand self service, broader networkk access, resource pooling, rapid elasticity, measured service. 
+        OnPrem Datacenter - Normal Datacenter. 
+
+        Advantages - complete control of applications, infrastructure , security 
+        
+
+ Hybrid 
+  
+     1) I have a on premises DC/Cloud platform. I'm having an immediate business requirement which needs more hardware capacity for the next 3 months 
+     2) I have a on premises DC/Cloud platform. For Business Continuety I want to have a DR site (backup site) for my DC/Cloud 
+     3) I have a on premises DC/Cloud platform. I want an "offsite" backup for my data" 
+     4) I have a on premises DC/Cloud platform.but sometimes when there is a spike in the business requirements I need some infra to meet that unexpected demands 
+     5) I want to move to cloud. but still I want to retain critical datas under my control. 
+     6) I'm migrating to cloud, but I want to reuse my investement I made on the On premises.
+
+     Eg:- AWS Outposts, Azure Stack. 
+
+   Cloud bursting - when private cloud on onprem cloud is not able to meet requirements, you are oing to anathor cloud. 
+
+ Community
+    Business, regulatory, legal and security requirements are common they form a community. 
+
+    Cloud for a specific community, like for govt , its govt cloud. 
+    for banking there is like IBCC - indian banking cloud community. 
+
+--------------------- 
+
+Chienese Data Problems. 
+a. Peple dont want to store the data in china because it should be visible to chinese govt. 
+b. if you are keeping encryption key, it should be visible to chinese govt also. 
+
+---------------- 
+Simple Cloud Security Model. 
+
+a. Identify Necessary Security and COmpliance requirements and identify existin controls. 
+b. select your cloud provider , service and deployment model. 
+c. define the architecture. 
+d. assess the security controls. 
+e. identify control gaps. like if you have 10 controls, only 5 controls can be met. 
+f. design and implement controls to fill gaps.  for the above gaps, fill the solution. 
+g. manage the changes over time. 
+
+
+---------------------
+
+uptime - all about hardware 
+availability - all about services. 
+
+--------------------- 
+
+Interoperability - able to work with multiple cloud providers and move and reuse from one provider to other. 
+
+Portability - i am in one service provider, if i want to lift and shift then in that case, i need to be able to portable. i can use and reuse elsewhere. 
+
+Vendor lock in - lack of portability , favourable contract should be there that portability is there. + using more open source services 
+vendor lock out - if csp moves out of business, because of that business effected. then it is a risk , use providers with market value and use other provider as backup. 
+
+
+Key ESCROW - sometimes vendor stores the code in a 3rd Party, dont maintain the code locally , in that case we can access that 
+
+due care - systematic and property 
+due delligence. - respectfully follow. 
+
+---------- 
+
+Privacy 
+
+
+
+
+Krish. to Everyone
+https://www.mitre.org/sites/default/files/pdf/cloud_sla_considerations_government.pdf
+
+11:53 AMKrish. to Everyone
+https://www.bmc.com/blogs/sla-template-examples/
+
+
+Auditability 
+
+Regulatory 
+
+
+https://downloads.cloudsecurityalliance.org/initiatives/top_threats/The_Notorious_Nine_Cloud_Computing_Top_Threats_in_2013.pdf
+
+
+
